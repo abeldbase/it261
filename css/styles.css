@@ -1,0 +1,61 @@
+/*Styles for my portal page!*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lavender;
+}
+#wrapper {
+    max-width: 1200px;
+    margin: 20px auto;
+    clear: both;
+
+}
+nav {
+    height: 60px;
+    background: lightseagreen;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+nav li{
+    float: left;
+    margin-left: 16.66%;
+    text-align: center;
+    list-style-type: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+main {
+    width: 62%;
+    float: left;
+
+}
+aside{
+  width: 35%;  
+  float: right;
+}
+.rihgt{
+float: right;
+margin-left: 30px;
+
+}
+    
+/*typography */
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 20px 0;
+
+}
+h2{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+main h2 , aside h2 {
+    text-align: left;
+}
