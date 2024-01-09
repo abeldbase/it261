@@ -65,5 +65,6 @@ footer {
     height: 60px;
     background: #ddd;
     clear: both;
-
+    text-align: center;
+    padding: 1em;
 }
