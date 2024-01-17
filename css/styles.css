@@ -11,7 +11,6 @@ body{
     max-width: 1200px;
     margin: 20px auto;
     clear: both;
-
 }
 nav {
     height: 60px;
@@ -21,7 +20,7 @@ nav {
 }
 nav li{
     float: left;
-    margin-left: 16.66%;
+    width: 16.66%;
     text-align: center;
     list-style-type: none;
 }
@@ -39,11 +38,10 @@ aside{
   float: right;
 }
 .rihgt{
-float: right;
-margin-left: 30px;
-
+    float: right;
+    margin-left: 30px;
 }
-    
+
 /*typography */
 h1 {
     text-align: center;
@@ -58,4 +56,11 @@ h2{
 }
 main h2 , aside h2 {
     text-align: left;
+}
+footer {
+    height: 60px;
+    background: #ddd;
+    clear: both;
+    text-align: center;
+    padding: 1em;
 }
