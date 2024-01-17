@@ -13,19 +13,20 @@
 <h2>The navigation below represents our BIG Assigements.</h2>
 <div id="wrapper">
 <nav>
-    <ul>
+<ul>
     <li><a href="website/index.html">Switch</a></li>
-      <li><a href="">Troubleshoot</a></li>
-      <li><a href="">Calculator</a></li>
-      <li><a href="">Email</a></li>
-      <li><a href="">Database</a></li>
-      <li><a href="">Gallery</a></li>
-    </ul>
+    <li><a href="troubleshoot.php">Troubleshoot</a></li>
+    <li><a href="calculator.php">Calculator</a></li>
+    <li><a href="email.php">Email</a></li>
+    <li><a href="database.php">Database</a></li>
+    <li><a href="gallery.php">Gallery</a></li>
+</ul>
+
   </nav>
   <main>
             <h2>About Abel </h2>
             
-        <img class="right" src="images/abel.jpg" alt="picture of Abel" align=left>
+        <img class="right" src="images/abel.jpg" alt="picture of Abel">
         <p>
         My name is Abel Mengstu and I am a cashier at Walgreens Pharmacy. I am
         studying data analytics and database at Seattle central college, and
@@ -57,32 +58,42 @@
         get from my studies my communication Skills, interpersonal Skills,
         people Skills and technology/Software knowldge are assets that I have.
       </p>
-            
+             
 
-<img class="left" src="images/Screenshot_MAMP.jpg" alt="Screenshot of MAMP">
+
+<img class="right" src="images/Screenshot_example.png" alt="Screenshot of MAMP">
+<img class="right" src="images/Screenshot_testphp.png" alt="Screenshot of MAMP">
+
 </main>
     <aside>
         <h2>Weekly class exercises</h2>
         <h3>week 2</h3>
+        
         <ol>
-            <li><a href="/it261/weeks/week2/var.php">var.php</li>
-            <li><a href="/it261/weeks/week2/var2.php">var2.php</li>
-            <li><a href="/it261/weeks/week2/currency-logic.php">currency-logic.php</li>
-            <li><a href="/it261/weeks/week2/currency.php">currency.php</li>
-        </ol>
-       
+    <li><a href="/it261/weeks/week2/var.php">var.php</a></li>
+    <li><a href="/it261/weeks/week2/var2.php">var2.php</a></li>
+    <li><a href="/it261/weeks/week2/currency-logic.php">currency-logic.php</a></li>
+    <li><a href="/it261/weeks/week2/currency.php">currency.php</a></li>
+</ol>
+
+      
+     
+
     </aside>
 </div>
 <footer>
-      <a>&copy; 2024 by Abel Mengstu</a>, All Rights Reserved ~
-      <a id="html-checker" href="#">Check HTML</a> ~
-      <a id="css-checker" href="#">Check CSS</a>
-</footer>
+<ul>
+    <li>&copy; 2024 by Abel Mengstu, All Rights Reserved ~</li>
+    <li><a id="html-checker" href="#" target="_blank">Check HTML</a> ~</li>
+    <li><a id="css-checker" href="#" target="_blank">Check CSS</a></li>
+</ul>
 
-      <script>
-      document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
-      document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-      </script>
+
+<script>
+    document.getElementById("html-checker").setAttribute("href", "https://validator.w3.org/nu/?doc=" + location.href);
+    document.getElementById("css-checker").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+</script>
+</footer>
       <!--close wrapper-->
   </body>
 </html>
