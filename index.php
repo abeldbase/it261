@@ -13,45 +13,76 @@
 <h2>The navigation below represents our BIG Assigements.</h2>
 <div id="wrapper">
 <nav>
-          <ul>
-            <li><a href="">Switch</a></li>
-            <li><a href="">Troubleshoot</a></li>
-            <li><a href="">Calculator</a></li>
-            <li><a href="">Email</a></li>
-            <li><a href="">Database</a></li>
-            <li><a href="">Gallery</a></li>
-          </ul>
-        </nav>
-        <main>
+    <ul>
+    <li><a href="website/index.html">Switch</a></li>
+      <li><a href="">Troubleshoot</a></li>
+      <li><a href="">Calculator</a></li>
+      <li><a href="">Email</a></li>
+      <li><a href="">Database</a></li>
+      <li><a href="">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
             <h2>About Abel </h2>
-            <img class="right" src="images/abel.jpg" alt="picture of Abel">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi quos esse, reprehenderit dignissimos dicta alias, quo fuga repellendus, at explicabo dolore reiciendis quisquam tenetur odit earum. Aperiam, ipsam? Dolores, rerum.</p>
             
-        </main>
+        <img class="right" src="images/abel.jpg" alt="picture of Abel" align=left>
+        <p>
+        My name is Abel Mengstu and I am a cashier at Walgreens Pharmacy. I am
+        studying data analytics and database at Seattle central college, and
+        plan to change my carrier to IT. I enjoy using my basic skills to
+        contribute to my study and technological knowledge I get every day. My
+        philosophy is ,every skill has a room in the world and learn something
+        from your daily life.
+      </p>
+      <p>
+        As a cashier in downtown, I am the last face and sometimes the only face
+        the customer sees, I will have to answer questions, explain store
+        policy, and cope with customers irritated by long lines or other issues,
+        all while maintaining a friendly, professional manner. For serious
+        problems, I will probably be able to call a manager or customer service
+        representative. Especially working in Downtown Seattle is not easy but
+        changing all the challenges we face every day every moment to the
+        positive side of life and learning out it. It is a big and lifetime
+        asset for me working in downtown! I always tell myself if I can do this,
+        I can do anything anywhere else.
+      </p>
+      <p>
+        After completing my study, I need to become front end web developer.
+        Front end web developer plays an active role in the business’s key
+        website development. He oversees frontend development for the business’s
+        websites and platforms by building sitemaps, prototypes, wire frames,
+        and conducting the documentation that articulates the sites’ structures
+        and organization. I am learning all the required skills to implement any
+        requested template, JavaScript, and CSS. Beside my professional skills I
+        get from my studies my communication Skills, interpersonal Skills,
+        people Skills and technology/Software knowldge are assets that I have.
+      </p>
+            
+
+<img class="left" src="images/Screenshot_MAMP.jpg" alt="Screenshot of MAMP">
+</main>
     <aside>
         <h2>Weekly class exercises</h2>
         <h3>week 2</h3>
         <ol>
-            <li><a href="var.php">var.php</li>
-            <li><a href="var2.php">var.php</li>
-            <li><a href="var3.php">var.php</li>
-            <li><a href="var4.php">var.php</li>
+            <li><a href="/it261/weeks/week2/var.php">var.php</li>
+            <li><a href="/it261/weeks/week2/var2.php">var2.php</li>
+            <li><a href="/it261/weeks/week2/currency-logic.php">currency-logic.php</li>
+            <li><a href="/it261/weeks/week2/currency.php">currency.php</li>
         </ol>
+       
     </aside>
 </div>
- <footer>              
-   <ul>
-<li>Copyright &copy;
-    2024</li>
-<li>All Rights Reserved</li>
-<li><a href="../index.php">Web Design by Abel Mengstu</a></li>
-<li><a id="html-checker" href="#">HTML Validation</a></li>
-<li><a id="css-checker" href="#">CSS Validation</a></li>
-</ul>
-   </footer>
-                <script>
+<footer>
+      <a>&copy; 2024 by Abel Mengstu</a>, All Rights Reserved ~
+      <a id="html-checker" href="#">Check HTML</a> ~
+      <a id="css-checker" href="#">Check CSS</a>
+</footer>
+
+      <script>
       document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
       document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-</script>
+      </script>
+      <!--close wrapper-->
   </body>
 </html>
