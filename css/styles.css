@@ -40,7 +40,9 @@ aside{
 .rihgt{
     float: right;
     margin-left: 30px;
+    word-wrap: break-word;
 }
+
 
 /*typography */
 h1 {
@@ -53,6 +55,9 @@ h2{
     font-size: 2em;
     text-align: center;
     margin-bottom: 20px;
+}
+h3 {
+    color: #131111;
 }
 main h2 , aside h2 {
     text-align: left;
