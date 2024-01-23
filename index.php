@@ -14,7 +14,7 @@
 <div id="wrapper">
 <nav>
 <ul>
-    <li><a href="website/index.html">Switch</a></li>
+    <li><a href="website/index.php">Switch</a></li>
     <li><a href="troubleshoot.php">Troubleshoot</a></li>
     <li><a href="calculator.php">Calculator</a></li>
     <li><a href="email.php">Email</a></li>
@@ -62,7 +62,7 @@
 
 
 <img class="right" src="images/Screenshot_example.png" alt="Screenshot of MAMP">
-<img class="right" src="images/Screenshot_testphp.png" alt="Screenshot of MAMP">
+<img class="right" src="images/screenshot_testphp.png" alt="Screenshot of MAMP">
 
 </main>
     <aside>
@@ -76,7 +76,15 @@
     <li><a href="/it261/weeks/week2/currency.php">currency.php</a></li>
 </ol>
 
-      
+<h3>week 3</h3>
+        
+        <ol>
+    <li><a href="/it261/weeks/week3/if.php">if.php</a></li>
+    <li><a href="/it261/weeks/week3/date.php">date.php</a></li>
+    <li><a href="/it261/weeks/week3/for-each.php">for-each.php</a></li>
+    <li><a href="/it261/weeks/week3/for-loop.php">for-loop.php</a></li>
+   
+</ol> 
      
 
     </aside>
