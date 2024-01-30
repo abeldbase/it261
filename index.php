@@ -93,7 +93,8 @@
           <li><a href="/it261/weeks/week4/form1.php">form1.php</a></li>
           <li><a href="/it261/weeks/week4/form2.php">form2.php</a></li>
           <li><a href="/it261/weeks/week4/arithemetic-form.php">arithemetic-form.php</a></li>
-           <li><a href="/it261/weeks/week4/adder.php">adder.php</a></li>
+          <li><a href="/it261/weeks/week4/adder.php">adder.php</a></li>
+          <li><a href="/it261/weeks/week4/celcius.php">celcius.php</a></li>
   
       </ol>   
 
