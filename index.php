@@ -25,7 +25,7 @@
   </nav>
   <main>
             <h2>About Abel </h2>
-            
+
         <img class="right" src="images/abel.jpg" alt="picture of Abel">
         <p>
         My name is Abel Mengstu and I am a cashier at Walgreens Pharmacy. I am
@@ -58,7 +58,7 @@
         get from my studies my communication Skills, interpersonal Skills,
         people Skills and technology/Software knowldge are assets that I have.
       </p>
-             
+
 
 
 <img class="right" src="images/Screenshot_example.png" alt="Screenshot of MAMP">
@@ -68,7 +68,7 @@
     <aside>
         <h2>Weekly class exercises</h2>
         <h3>week 2</h3>
-        
+
         <ol>
     <li><a href="/it261/weeks/week2/var.php">var.php</a></li>
     <li><a href="/it261/weeks/week2/var2.php">var2.php</a></li>
@@ -77,26 +77,36 @@
 </ol>
 
 <h3>week 3</h3>
-        
+
   <ol>
     <li><a href="/it261/weeks/week3/if.php">if.php</a></li>
     <li><a href="/it261/weeks/week3/date.php">date.php</a></li>
     <li><a href="/it261/weeks/week3/for-each.php">for-each.php</a></li>
     <li><a href="/it261/weeks/week3/for-loop.php">for-loop.php</a></li>
     <li><a href="/it261/weeks/week3/switch.php">switch.php</a></li>
-   
-</ol> 
+
+</ol>
 <h3>week 4</h3>
-        
+
         <ol>
           <li><a href="/it261/weeks/week4/form-get.php">form-get.php</a></li>
           <li><a href="/it261/weeks/week4/form1.php">form1.php</a></li>
           <li><a href="/it261/weeks/week4/form2.php">form2.php</a></li>
+          <li><a href="/it261/weeks/week4/form3.php">form3.php</a></li>
           <li><a href="/it261/weeks/week4/arithemetic-form.php">arithemetic-form.php</a></li>
           <li><a href="/it261/weeks/week4/adder.php">adder.php</a></li>
           <li><a href="/it261/weeks/week4/celcius.php">celcius.php</a></li>
-  
-      </ol>   
+
+      </ol>
+  <h3>week 5</h3>
+        <ol>
+          <li><a href="/it261/weeks/week5/currency1.php">currency1.php</a></li>
+          <li><a href="/it261/weeks/week5/currency2.php">currency2.php</a></li>
+          <li><a href="/it261/weeks/week5/currency3.php">currency3.php</a></li>
+          <li><a href="/it261/weeks/week5/currency4.php">currency4.php</a></li>
+          <li><a href="/it261/weeks/week5/null.php">null.php</a></li>
+          <li><a href="/it261/weeks/week5/calculator.php">calculator.php</a></li>
+      </ol>
 
     </aside>
 </div>
