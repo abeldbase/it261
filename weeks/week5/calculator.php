@@ -30,9 +30,11 @@
             <label>Fuel Efficiency</label>
             <select name="fuelEfficiency">
             <option value="" <?php if(isset($_POST['fuelEfficiency'])&& is_null($_POST['fuelEfficiency'])) echo 'selected ="unselected" ' ;?>> Select one!</option>
-                <option value="10" <?php if(isset($_POST['fuelEfficiency']) && $_POST['fuelEfficiency'] == 10) echo 'selected="selected"'; ?>>10 mpg</option>
-                <option value="20" <?php if(isset($_POST['fuelEfficiency']) && $_POST['fuelEfficiency'] == 20) echo 'selected="selected"'; ?>>20 mpg</option>
-                <option value="30" <?php if(isset($_POST['fuelEfficiency']) && $_POST['fuelEfficiency'] == 30) echo 'selected="selected"'; ?>>30 mpg</option>
+                <option value="10" <?php if(isset($_POST['fuelEfficiency']) && $_POST['fuelEfficiency'] == 10) echo 'selected="selected"'; ?>>Terrible@10 mpg</option>
+                <option value="20" <?php if(isset($_POST['fuelEfficiency']) && $_POST['fuelEfficiency'] == 20) echo 'selected="selected"'; ?>>Bad@20 mpg</option>
+                <option value="30" <?php if(isset($_POST['fuelEfficiency']) && $_POST['fuelEfficiency'] == 30) echo 'selected="selected"'; ?>>Okay@30 mpg</option>
+                <option value="40" <?php if(isset($_POST['fuelEfficiency']) && $_POST['fuelEfficiency'] == 40) echo 'selected="selected"'; ?>>Good@40 mpg</option>
+                <option value="50" <?php if(isset($_POST['fuelEfficiency']) && $_POST['fuelEfficiency'] == 50) echo 'selected="selected"'; ?>>Great@50 mpg</option>
             </select>
             <input type="submit" value="Calculate">
             <p><a href="">RESET IT!</a></p>
@@ -76,9 +78,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $fuelEfficiency = $miles / $cost;
         $totalHours = $totalMiles / $speed; // Total Hours Driven = Total Distance Driven / Speed
         $days = $totalHours / $hoursPerDay;
-        $gasUsage = $totalMiles / $_POST['fuelEfficiency'];
+        $gasUsage = $miles / $_POST['fuelEfficiency'];
 
-        echo '<div class="box"><h2>Hello ' . $name . ', </h2><p>You will be traveling a total of <b>' . number_format($totalHours, 2) . ' hours </b>, taking <b>' . number_format($days, 2) . ' days </b>, and you will be using <b>' . number_format($gasUsage, 2). ' gallons of gas, costing you  <b>$' . number_format($cost, 2) . ' dollars!</b></p></div>';
+        echo '<div class="box"><h2>Hello ' . $name . ', </h2><p>You will be traveling a total of <b>' . number_format($totalHours, 2) . ' hours </b>, taking <b>' . number_format($days, 2) . ' days </b>, and you will be using <b>' . number_format($gasUsage, 2). ' gallons of gas, costing you  <b>$' . number_format($gasUsage*$price, 2) . ' dollars!</b></p></div>';
     }
 }
 
