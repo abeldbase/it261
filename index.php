@@ -108,6 +108,15 @@
           <li><a href="/it261/weeks/week5/calculator.php">calculator.php</a></li>
       </ol>
 
+      <h3>week 6</h3>
+        <ol>
+          <li><a href="/it261/weeks/week6/form1.php">form1.php</a></li>
+          <li><a href="/it261/weeks/week6/form2.php">form2.php</a></li>
+          <li><a href="/it261/weeks/week6/functions.php">functions.php</a></li>
+          <li><a href="/it261/weeks/week6/implode.php">implode.php</a></li>
+        
+      </ol>
+
     </aside>
 </div>
 <footer>
