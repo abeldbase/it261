@@ -6,19 +6,15 @@
     <title>Fuel Efficiency Calculator</title>
     <link href="css/styles.css" type="text/css" rel="stylesheet" /> 
 </head>
-
 <body>
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
         <fieldset>
             <label>Name</label>
             <input type="text" name="name" value="<?php if(isset($_POST['name'])) echo htmlspecialchars($_POST['name']); ?>">
-
             <label>Total Miles Driving?</label>
             <input type="number" name="totalMiles" value="<?php if(isset($_POST['totalMiles'])) echo htmlspecialchars($_POST['totalMiles']); ?>">
-
             <label>How fast do you typically drive?</label>
             <input type="number" name="speed" value="<?php if(isset($_POST['speed'])) echo htmlspecialchars($_POST['speed']); ?>">
-
             <label>How many hours per day do you plan on driving?</label>
             <input type="number" name="hoursPerDay" value="<?php if(isset($_POST['hoursPerDay'])) echo htmlspecialchars($_POST['hoursPerDay']); ?>">
             <label>Price of gas</label>
@@ -46,7 +42,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $speed = isset($_POST['speed']) ? floatval($_POST['speed']) : 0;
     $hoursPerDay = isset($_POST['hoursPerDay']) ? floatval($_POST['hoursPerDay']) : 0;
     $price = isset($_POST['price']) ? floatval($_POST['price']) : 0;
-
     // Check for and echo errors directly
     if (empty($_POST['name'])) {
         echo '<p class="error">Please fill out the Name field!</p>';
@@ -69,7 +64,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST['fuelEfficiency'])) {
         echo '<p class="error">Please select Fuel Efficiency!</p>';
     }
-
     if (!empty($_POST['name']) && !empty($_POST['totalMiles']) && !empty($_POST['speed']) && !empty($_POST['hoursPerDay']) && !empty($_POST['price']) && !empty($_POST['fuelEfficiency'])) {
         $name = $_POST['name'];
         $miles = $totalMiles; 
@@ -83,7 +77,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo '<div class="box"><h2>Hello ' . $name . ', </h2><p>You will be traveling a total of <b>' . number_format($totalHours, 2) . ' hours </b>, taking <b>' . number_format($days, 2) . ' days </b>, and you will be using <b>' . number_format($gasUsage, 2). ' gallons of gas, costing you  <b>$' . number_format($gasUsage*$price, 2) . ' dollars!</b></p></div>';
     }
 }
-
 ?>
 </body>
 </html>
