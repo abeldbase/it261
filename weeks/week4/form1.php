@@ -10,7 +10,7 @@ echo $email;
 }else {
     echo '
     <form action = "" method="post">
-    <lable>NAME</lable>
+    <label>NAME</label>
     <input type="text" name="name">
     <lable>EMAIL</lable>
 <input type="email" name="email">

@@ -11,9 +11,9 @@ if(isset($_GET['name'],
     }else {
     echo'
     <form action = "" method="get">
-    <lable><NAME</lable>
+    <label><NAME</label>
     <input type="text" name="name">
-    <lable>EMAIL</lable>
+    <label>EMAIL</label>
     <input type="email" name="email">
     <input type="submit" value="Confirm">
     </form>';
