@@ -113,7 +113,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     Privacy: ' . $privacy . '  ' . PHP_EOL . '
     ';
         $headers = array(
-            'From' => 'noreply@gmail.com'
+            'From' => 'noreply@studentswa.com'
         );
 
         if (!empty(
