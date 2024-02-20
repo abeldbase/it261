@@ -129,7 +129,7 @@ $gender='';
 $email='';
 $phone='';
 $wines = '';
-$region='';
+$regions='';
 $comments='';
 $privacy='';
 
@@ -139,7 +139,7 @@ $gender_err = '';
 $email_err = '';
 $phone_err = '';
 $wines_err = '';
-$region_err = '';
+$regions_err = '';
 $comments_err = '';
 $privacy_err = '';
 
@@ -188,11 +188,11 @@ $wines_err ='What... no wines?';
     } else {
         $wines = $_POST['wines'];
     }
-if($_POST['region'] == NULL ) {
+if($_POST['regions'] == NULL ) {
         //say something or do something 
-$region_err ='Please choose your region ';
+$regions_err ='Please choose your region ';
     } else {
-        $region= $_POST['region'];
+        $regions= $_POST['regions'];
     }
     if (empty($_POST['comments'])) {
         //say something or do something 
@@ -216,14 +216,14 @@ return $my_return;
 } // end my_wines function 
        
 if(isset($POST['first_name'],
-$POST['last_name'],
-$POST['email'],
-$POST['gender'],
-$POST['phone'],
-$POST['wines'],
-$POST['region'],
-$POST['comments'],
-$POST['privacy'])){
+$_POST['last_name'],
+$_POST['email'],
+$_POST['gender'],
+$_POST['phone'],
+$_POST['wines'],
+$_POST['regions'],
+$_POST['comments'],
+$_POST['privacy'])){
     $to ='abeldbase@gmail.com';
     $subject = 'Test eamil on '.date('m/d/y, h i A');
     $body = '   
@@ -233,7 +233,7 @@ $POST['privacy'])){
     Gender: '.$gender.'  '.PHP_EOL.' 
     Phone: '.$phone.'  '.PHP_EOL.' 
     Wines: '.my_wines($wines).'  '.PHP_EOL.' 
-    Region: '.$region.'  '.PHP_EOL.' 
+    Region: '.$regions.'  '.PHP_EOL.' 
     Comments: '.$comments.'  '.PHP_EOL.' 
     Privacy: '.$privacy.'  '.PHP_EOL.' 
     ';
@@ -250,7 +250,7 @@ if (!empty(
         $gender &&
         $phone &&
         $wines &&
-        $region &&
+        $regions &&
         $comments &&
         $privacy )){
     // Send email
