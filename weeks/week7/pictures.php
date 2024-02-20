@@ -51,7 +51,7 @@ td{
             $location = substr($image, $from_position + 5);
             echo $occupation . ' ' . $location;
         ?></td>
-          <td><img src="images/images2/<?php echo substr($image, 0, 5); ?>.jpg" alt="<?php echo str_replace('_', ' ', $name); ?>"></td>
+         
 </tr>
 
 <?php endforeach; ?>
