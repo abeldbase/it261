@@ -1,7 +1,6 @@
+<form action="contact.php" method="post">
 <?php
-
 ob_start();
-
 $first_name = '';
 $last_name = '';
 $email = '';
@@ -93,14 +92,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" type="text/css" rel="stylesheet" />
-    <title>Form </title> 
-    <style>
+
+<style>
 
         /* Styles for my week6 form1.php */
 * {
@@ -175,11 +168,10 @@ input[type=reset] {
     color: red;
 }
 
-    </style> 
-</head>
-<body>
+</style> 
+
 <h1>Week 7 live form  </h1>
-<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
+
     <fieldset>
         <legend>Contact Abel</legend>
         <label>First Name</label>
@@ -210,5 +202,3 @@ input[type=reset] {
         <p><a href="">Reset</a></p>
     </fieldset>
 </form>
-</body>
-</html>
