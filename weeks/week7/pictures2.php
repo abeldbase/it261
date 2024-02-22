@@ -8,7 +8,6 @@ $people['Elizabeth_Warren']='warre_Senator from MA.';
 $people['Kamila_Harris']='harri_Vice President from CA.';
 $people['Cory_Booker']='booke_Senator from NJ.';
 $people['Andrew_Yang']='ayang_Entrepreneur from NY.';
-
 $people['Pete_Buttigieg']='butti_Transportation Secretary from IN.';
 $people['Amy_Klobuchar']='klobu_Senator from MN.';
 $people['Julian_Castro']='castr_Former Housing/Urban from TX.';
@@ -31,7 +30,7 @@ table{
 
 }
 td{
-    border:1px solid red;
+    border:1px solid white;
  
 }
 
@@ -51,7 +50,9 @@ td{
             $location = substr($image, $from_position + 5);
             echo $occupation . ' ' . $location;
         ?></td>
-         
+          <td><img src="images/images2/<?php echo substr($image, 0, 5); ?>.jpg" alt="<?php echo str_replace('_', ' ', $name); ?>"></td>
+        
+
 </tr>
 
 <?php endforeach; ?>

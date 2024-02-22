@@ -1,22 +1,7 @@
-<?php
-// adder-wrong.php
-
-$myTotal = 0; // Initialize $myTotal
-
-if (isset($_POST['num1'])) {
-    $num1 = $_POST['num1'];
-    $num2 = $_POST['num2'];
-    $myTotal = $num1 + $num2;
-
-    echo '<h2>You added ' . $num1 . ' and ' . $num2 . '</h2>';
-    echo '<p style="color:red;">The answer is ' . $myTotal . '!</p>';
-    echo '<p><a href="">Reset page</a></p>';
-}
-?>
-
+<!DOCTYPE html>
 <html>
 <head>
-    <title>My Adder Assignment</title>
+<title>My Adder Assignment</title>
     <style>
  p {
         color:red;
@@ -55,5 +40,22 @@ if (isset($_POST['num1'])) {
 
         <input type="submit" value="Add Em!!">
     </form>
+
+
+    <?php
+// adder-wrong.php
+
+$myTotal = 0; // Initialize $myTotal
+
+if (isset($_POST['num1'])) {
+    $num1 = $_POST['num1'];
+    $num2 = $_POST['num2'];
+    $myTotal = $num1 + $num2;
+
+    echo '<h2>You added ' . $num1 . ' and ' . $num2 . '</h2>';
+    echo '<p style="color:red;">The answer is ' . $myTotal . '!</p>';
+    echo '<p><a href="">Reset page</a></p>';
+}
+?>
 </body>
 </html>

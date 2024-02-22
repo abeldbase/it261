@@ -11,6 +11,9 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+.current{
+  color: red;  
+}
 header{
     background: yellow;
     padding: 5px 0;
