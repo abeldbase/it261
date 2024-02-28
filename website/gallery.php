@@ -1,4 +1,9 @@
 <?php
+include('config.php');
+include('./includes/header.php');
+?>
+
+<?php
 
 $state['Flag_of_Arizona']='AZ_nickname The Grand Canyon State.';
 $state['Flag_of_Arkansas']='AR_nickname The Natural State.';
@@ -15,12 +20,7 @@ $state['Flag_of_Washington']='WA_nickname The Evergreen State';
 //$name......$image
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week 8,  pictures </title>
+
     <style>
 
 table{
@@ -35,8 +35,7 @@ td{
 }
 
     </style>
-</head>
-<body>
+
   <table>
   <?php foreach($state as $name=> $image ) : ?>
     <tr>
@@ -55,5 +54,5 @@ td{
     </tr>
 <?php endforeach; ?>
   </table>
-</body>
-</html>
+
+<?php include('./includes/footer.php')?>
