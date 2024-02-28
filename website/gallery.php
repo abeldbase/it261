@@ -22,7 +22,12 @@ $state['Flag_of_Washington']='WA_nickname The Evergreen State';
 ?>
 
     <style>
-
+ h1 {
+        color: blue;
+        text-align: center;
+        margin-top: 10px;
+        
+    }
 table{
     border:1px solid red;
     border-collapse:collapse;
@@ -35,6 +40,9 @@ td{
 }
 
     </style>
+
+        <h1>Welcome to my gallery page.</h1>
+     
 
   <table>
   <?php foreach($state as $name=> $image ) : ?>
