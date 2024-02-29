@@ -10,7 +10,7 @@ body {
     background: rgb(214, 192, 159);
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     font-size: 100%;
-    min-height: 100vh;
+    
 }
 
 /* Wrapper for containing the layout */
@@ -41,11 +41,11 @@ img {
 footer {
     /* position: fixed; */
     border-top: 1px dotted brown;
-    bottom: 10px;
+ 
     clear: both; /* Clear floats */
     text-align: center;
     background-color: aliceblue;
-    font-size: 9em;
+    font-size: 10px;
     color: #0a0a0a;
 }
 footer ul {
