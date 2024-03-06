@@ -1,8 +1,21 @@
 <?php
 
+include('config.php');
 include('./includes/header.php');
 ?>
     <div id="wrapper">
+
+
+    <style>
+main, aside {
+
+    margin-top: 100px;
+    margin-bottom: 20px;
+  
+}
+
+    </style>
+
       <main>
         <h1>Welcome to my daily page .</h1>
         <p>

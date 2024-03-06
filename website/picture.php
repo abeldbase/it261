@@ -1,9 +1,4 @@
 <?php
-include('config.php');
-include('./includes/header.php');
-?>
-
-<?php
 
 $state['Flag_of_Arizona']='AZ_nickname The Grand Canyon State.';
 $state['Flag_of_Arkansas']='AR_nickname The Natural State.';
@@ -20,35 +15,38 @@ $state['Flag_of_Washington']='WA_nickname The Evergreen State';
 //$name......$image
 
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 8,  pictures </title>
+    <style>
 
-<style>
-    h1 {
-        color: blue;
-        text-align: center;
-        margin-top: 10px;
-    }
-    table {
-        border: 1px solid red;
-        border-collapse: collapse;
-        margin-bottom: 20px;
-        margin-top: 110px; 
-    }
-    td {
-        border: 1px solid white;
-    }
-</style>
+table{
+    border:1px solid red;
+    border-collapse:collapse;
+    margin-bottom: 20px;
 
-<h2>Welcome to my gallery page.</h2>
+}
+td{
+    border:1px solid white;
+ 
+}
+
+    </style>
+</head>
+<body>
   <table>
-  
   <?php foreach($state as $name=> $image ) : ?>
-    
     <tr>
         <td><img src="images/<?php echo substr($image, 0, 2); ?>.png" alt="<?php echo str_replace('_', ' ', $name); ?>"></td>
         <td><?php echo str_replace('_', ' ', $name); ?></td>
-    
-                <td> <?php 
-                         // Extract description and nickname
+       
+       
+
+       <td> <?php 
+                        // Extract description and nickname
                         $description_start = strpos($image, '_nickname') + strlen('_nickname');
                         $description_end = strpos($image, ' ', $description_start);
                         $description = substr($image, $description_start, $description_end - $description_start);
@@ -56,7 +54,21 @@ $state['Flag_of_Washington']='WA_nickname The Evergreen State';
                         echo $description . ' ' . $nickname;
                     ?>
                 </td>
-    </tr>
+
+
+
+
+
+
+
+       
+        
+
+</tr>
+
 <?php endforeach; ?>
+
+
   </table>
-<?php include('./includes/footer.php')?>
+</body>
+</html>

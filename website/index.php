@@ -1,10 +1,13 @@
 <?php
 
+include('config.php');
 include('./includes/header.php');
 ?>
     <div id="wrapper">
       <div id="hero">
         <img src="images/seattle-lake-washington.png" alt="lake-washington " />
+        <!-- New bar below the image -->
+        <iframe width="1200" height="60" src="https://rss.app/embed/v1/ticker/tW4RpOAIHaYqHBp8" frameborder="0"></iframe>
       </div>
       <!-- end hero-->
       <main>
@@ -25,9 +28,7 @@ include('./includes/header.php');
           turpis egestas pretium aenean. Sed risus ultricies tristique nulla
           aliquet enim tortor. Erat velit scelerisque in dictum non consectetur.
           Odio facilisis mauris sit amet. Cursus sit amet dictum sit amet.
-          Feugiat in fermentum posuere urna nec tincidunt praesent semper
-          feugiat. Aliquet bibendum enim facilisis gravida neque convallis. Sed
-          adipiscing diam donec adipiscing tristique risus.
+        
         </p>
         <h2>Headline two</h2>
         <p>
@@ -38,7 +39,13 @@ include('./includes/header.php');
           viverra justo. Molestie ac feugiat sed lectus. Sed risus pretium quam
           vulputate dignissim. Adipiscing elit pellentesque habitant morbi
           tristique senectus. Cursus sit amet dictum sit amet.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos a quis
+          quaerat asperiores ullam tempora eum eveniet repellat, magnam suscipit
+         
         </p>
+
+
+
       </main>
       <aside>
         <h3>Headline three</h3>
@@ -50,7 +57,10 @@ include('./includes/header.php');
           viverra justo. Molestie ac feugiat sed lectus. Sed risus pretium quam
           vulputate dignissim. Adipiscing elit pellentesque habitant morbi
           tristique senectus. Cursus sit amet dictum sit amet.
+       
         </p>
+        </p>
+        
       </aside>
     </div>
     <!-- end wrapper --->

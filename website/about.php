@@ -5,7 +5,7 @@ $nav = array (
     'index.php'=>'Home',
     'about.php'=>'About',
     'daily.php'=>'Daily',
-    'project.php'=>'Project',
+    'social.php'=>'Project',
     'contact.php'=>'Contact',
     'gallery.php'=>'Gallery',
 );
