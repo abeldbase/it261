@@ -234,14 +234,14 @@ $privacy_err ='You must agree to recive spam email!';
     }
 
 function my_wines($wines) {
-        $my_return='';
+        $my_return = '';
         if(!empty($_POST['wines'])) {
-            $my_return = implode(',', $POST['wines']);
+            $my_return = implode(',', $_POST['wines']);
         }
-return $my_return;       
-} // end my_wines function 
-       
-if(isset($POST['first_name'],
+    return $my_return;
+} // end my_wines function
+
+if(isset($_POST['first_name'],
 $_POST['last_name'],
 $_POST['email'],
 $_POST['gender'],
@@ -251,7 +251,7 @@ $_POST['regions'],
 $_POST['comments'],
 $_POST['privacy'])){
     $to ='abeldbase@gmail.com';
-    $subject = 'Test eamil on '.date('m/d/y, h i A');
+    $subject = 'Test email on '.date('m/d/y, h i A');
     $body = '   
     First Name: '.$first_name.'  '.PHP_EOL.' 
     Last Name: '.$last_name.'  '.PHP_EOL.' 
